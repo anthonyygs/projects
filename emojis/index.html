@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="theme-color" content="#0a0017">
+    <link rel="canonical" href="https://www.anthony.blog.br/projetos/emojis/">
+    <title id="title">Copie seu Emoji! 😜</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="Copie emojis de forma rápida, prática e totalmente gratuita. Encontre emojis organizados por categorias, descubra os mais usados, procure símbolos específicos e copie com um clique. Explore emojis de carinhas, corações, animais, gestos, bandeiras, comidas, objetos, símbolos Unicode e muito mais. Ideal para redes sociais, mensagens, Instagram, WhatsApp, TikTok, Facebook, posts, legendas e conversas do dia a dia. Emojis atualizados, compatíveis com todas as plataformas e navegadores, com busca rápida e interface simples para copiar e colar emojis sempre que precisar." />
+    <meta name="keywords" content="emojis, copiar emojis, emojis para copiar, emoji, copiar e colar emoji, copiar emoji online, emojis populares, emojis atualizados, emojis unicode, símbolos unicode, emoji unicode, emojis de carinhas, emojis de coração, emojis fofos, emojis de animais, emojis de gestos, emojis de bandeiras, emojis para redes sociais, emojis para WhatsApp, emojis para Instagram, emojis para TikTok, copiar e colar, copiar símbolo, símbolos para copiar, emojis por categoria, lista de emojis, copiar emoji rapidamente, emojis compatíveis, copiar emojis grátis" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Chewy&family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+
+    <header>
+        <nav id="scroll_x">
+
+            <button id="button_1" onclick="nav_emojis('todos')" style="color: rgb(255, 0, 0);"></button>
+            <button id="button_2" onclick="nav_emojis('classicos')" style="color: rgb(255, 115, 0);"></button>
+            <button id="button_3" onclick="nav_emojis('gestos')" style="color: rgb(228, 183, 0);"></button>
+            <button id="button_4" onclick="nav_emojis('lugares')" style="color: rgb(21, 255, 0);"></button>
+            <button id="button_5" onclick="nav_emojis('objetos')" style="color: rgb(0, 217, 255);"></button>
+            <button id="button_6" onclick="nav_emojis('pessoas')" style="color: rgb(0, 38, 255);"></button>
+            <button id="button_7" onclick="nav_emojis('automoveis')" style="color: rgb(187, 0, 255);"></button>
+            <button id="button_8" onclick="nav_emojis('simbolos')" style="color: rgb(255, 0, 0);"></button>
+            <button id="button_9" onclick="nav_emojis('bandeiras')" style="color: rgb(255, 115, 0);"></button>
+            <button id="button_10" onclick="nav_emojis('alimentos')" style="color: rgb(228, 183, 0);"></button>
+            <button id="button_11" onclick="nav_emojis('animais')" style="color: rgb(21, 255, 0);"></button>
+            <button id="button_12" onclick="nav_emojis('natureza')" style="color: rgb(0, 217, 255);"></button>
+            <button id="button_13" onclick="nav_emojis('+ cores')" style="color: rgb(0, 38, 255);" class="ultimo_p"></button>
+            <a id="link_blog" href="../../index.html" ><button onclick="nav_emojis('blog')" style="color: rgb(187, 0, 255);" class="ultimo_p">blog</button></a>
+ 
+        </nav>
+
+        <button class="scroll_button"><p id="scroll_p">>></p></button>
+
+    </header>
+
+    <main>
+
+        <h1 id="h1"></h1>
+
+
+        <div class="espaco_horizontal"></div>
+
+        <p id="main_texto" class="main_texto">Clique em um emoji para copiá-lo. Para facilitar sua busca, use as categorias acima.</p>
+
+        <div class="espaco_horizontal some"></div> 
+        <div class="espaco_horizontal"></div>
+        <div id="catalogo"></div> 
+        
+    </main>
+
+    <div class="espaco_horizontal"></div>
+    <div class="espaco_horizontal"></div>
+    <div class="espaco_horizontal"></div>
+    <div id="copiado"></div>
+    <script src="script.js"></script>
+</body>
+</html>

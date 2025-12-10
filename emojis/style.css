@@ -1,0 +1,388 @@
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  
+}
+
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+  font-family: "Baloo 2", sans-serif;
+  font-weight: 600;
+  
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.25);
+  font-style: normal;
+  color: rgb(240, 240, 240);
+  letter-spacing: 4px;
+}
+html {
+  overscroll-behavior: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+elemento {
+  scrollbar-width: none;
+}
+
+elemento {
+  -ms-overflow-style: none;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: #06070b;
+  
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  
+  
+}
+nav { 
+  position: relative;
+    height: 100%;
+    overflow-x: auto; 
+    overflow-y: hidden; 
+    display: flex;
+    flex-direction: row; 
+    gap: 12px;
+    padding: 10px;
+    align-items: center;
+    gap: 50px;
+    overscroll-behavior: none;
+}
+
+nav button {
+    border: 0;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    padding: 5px 10px;
+    margin: 6px 8px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid transparent;
+    transition: 0.1s ease;
+    white-space: nowrap;
+    width: max-content;
+    font-size: 17px;
+    font-family: "Fredoka", sans-serif;
+    font-weight: 500;
+
+}
+nav button:hover {
+    border: 2px solid white;
+    color: rgb(246, 246, 246);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.20);
+
+}
+
+.scroll_button {
+
+  color: rgb(16, 74, 125);
+  font-size: 17px;
+  font-weight: 600;
+  position: absolute;
+  font-family: "Fredoka", sans-serif;
+  right: 15px;
+  width: 50px;
+  height: 50px;
+  background-color: transparent;
+  border: 0;
+
+}
+
+
+.ultimo_p {
+    margin-right: 0;
+}
+
+@media (min-width: 900px) {
+  .nav-scroll {
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: auto;
+    justify-content: center;
+  }
+}
+
+
+
+hr {
+    width: 100%;
+    color: rgba(225, 225, 225, 0);
+    height: 40px;
+}
+.espaco_horizontal {
+    width: 100%;
+    height: 30px;
+}
+
+
+
+
+
+header {
+  margin-top: 20px;
+  margin-bottom: 20px;   
+  width: 100vw;
+  height: 70px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 65px;
+
+}
+
+@media (max-width: 1500px) {
+   header {
+       overflow-x: auto;
+      
+       
+   }   
+   nav {
+        gap: 30px;
+        padding-left: 20px;
+        padding-right: 20px;    
+   }
+   
+}
+ 
+main {
+    width: 900px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+        
+}
+
+.main_texto {
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+  width: 95%;
+  text-align: center;
+  font-family: "Fredoka", sans-serif;
+
+}
+
+#catalogo {
+    width: max-content;   
+    max-width: 100%;
+    margin: 0 auto;      
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.catalogo_botao {
+    width: 100%;
+    height: 100%;
+    font-size: 30px;
+    font-size: 30px;
+    border: 0;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+}
+.catalogo_botao p {
+    width: 100%;
+}
+
+.card {
+    background-color: white;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    height: 58px;
+    width: 58px;
+    overflow: hidden;
+    flex: 0 1 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(0, 0, 0);
+}
+
+.card:hover {
+    border: 2px solid rgb(255, 255, 255);
+}
+img {
+    width: 20px;
+}
+
+.some {
+  display: none;
+}
+#copiado {
+  position: fixed;
+  padding: 3px 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(101, 101, 101);
+  font-size: 17px;
+  pointer-events: none; 
+  opacity: 0;
+  transform: translate(-50%, -120%);
+  transition: opacity 0.2s ease;
+  z-index: 9999;
+  width: 110px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+@media (max-width: 1000px) {
+   main {
+        width: 95%;
+   }  
+
+   h1 {
+    font-size: 30px;
+   }
+
+   header {
+    height: 60px;
+    padding-right: 55px;
+   }
+
+   .scroll_button {
+
+    height: 40px;
+    width: 40px;
+    font-size: 15px;
+
+   }
+   nav button {
+    font-size: 16px;
+   }
+
+   nav {
+        gap: 20px;
+    
+   }
+
+  
+}
+
+@media (min-width: 2065px) {
+  
+  .scroll_button {
+    display: none;
+  }
+  header {
+    margin-right: 0px;
+    padding-right: 0px;
+  }
+
+}
+
+
+@media (max-width: 555px) {
+   .main_texto {
+    font-size: 14px;
+    width: 85%;
+    text-align: center;
+   }   
+   header {
+    height: 60px;
+    padding-right: 53px;
+    margin-top: 30px;
+   }
+   .scroll_button {
+    height: 37px;
+    width: 37px;
+    font-size: 14px;
+   }
+   .card {
+
+    width: 50px;
+    height: 50px;
+
+   }
+
+   main {
+    width: 100%;
+   }
+   h1 {
+    font-size: 23px;
+   }
+
+   nav button {
+    font-size: 14px;
+   }
+
+   nav {
+     gap: 15px;
+   }
+   
+
+
+}
+
+@media (max-width: 464px) {
+   .main_texto {
+        font-size: 14px;
+   } 
+ 
+   .main_texto {
+    text-align: center;
+   }
+    h1 {
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   }
+
+
+}
+
+
+@media (max-width: 393px) {
+
+  h1 {
+    font-size: 17px;
+    padding-left: 5px;
+    padding-right: 5px;
+   }
+
+}
+
+
+
+@media (max-width: 340px) {
+
+  h1 {
+    display: none;
+   }
+  .some {
+    display: block;
+  }
+
+}
+
+
