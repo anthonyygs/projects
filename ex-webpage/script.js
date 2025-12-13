@@ -4,7 +4,7 @@ const textoRepetidoMobile = `
     <div class="footerMobile">
         <div class="divSobreMobile">
             <div class="sobreTopMobile">
-                    <div class="circulo" id="mudarCorUm"><img class="anthony" src="./ex-webpage/imagens/anthony.png"></div>
+                    <div class="circulo" id="mudarCorUm"><img class="anthony" src="/PROJETOS/ex-webpage/imagens/anthony.png"></div>
                     <div class="sobreTopDiv">
                         <p class="tituloBarra">sobre mim:</p>
                         <a href="mailto:anthony.blog@tuta.io" class="iconeContato">✉️</a>
@@ -13,7 +13,7 @@ const textoRepetidoMobile = `
                 <p class="textoBarraMobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Phasellus malesuada, urna sed cursus semper, arcu arcu auctor lorem.</p>
             </div>
             <div class="mobileRight"> 
-                <img class="imgFooter" src="./ex-webpage/imagens/img_footer.png">    
+                <img class="imgFooter" src="/PROJETOS/ex-webpage/imagens/img_footer.png">    
             </div>
         </div>
     </div>
@@ -24,7 +24,7 @@ const textoRepetidoMobile = `
 const textoRepetido = `
     <div class="espacoHorizontal"></div>
     <div class="sobreTop">
-        <div class="circulo" id="mudarCorDois"><img class="anthony" src="./ex-webpage/imagens/anthony.png"></div>
+        <div class="circulo" id="mudarCorDois"><img class="anthony" src="/PROJETOS/ex-webpage/imagens/anthony.png"></div>
         <div class="sobreTopDiv">
             <p class="tituloBarra">sobre mim:</p>
             <a href="mailto:anthony.blog@tuta.io" class="iconeContato">✉️</a>
@@ -41,7 +41,7 @@ const textoRepetidoMobileEn = `
     <div class="footerMobile">
         <div class="divSobreMobile">
           <div class="sobreTopMobile">
-                  <div class="circulo" id="mudarCorUm"><img class="anthony" src="./ex-webpage/imagens/anthony.png"></div>
+                  <div class="circulo" id="mudarCorUm"><img class="anthony" src="/PROJETOS/ex-webpage/imagens/anthony.png"></div>
                   <div class="sobreTopDiv">
                       <p class="tituloBarra">about me:</p>
                       <a href="mailto:anthony.blog@tuta.io" class="iconeContato">✉️</a>
@@ -50,7 +50,7 @@ const textoRepetidoMobileEn = `
               <p class="textoBarraMobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Phasellus malesuada, urna sed cursus semper, arcu arcu auctor lorem.</p>
           </div>
           <div class="mobileRight">
-            <img class="imgFooter" src="./ex-webpage/imagens/img_footer.png">    
+            <img class="imgFooter" src="/PROJETOS/ex-webpage/imagens/img_footer.png">    
           </div>
         </div>
     </div>
@@ -61,7 +61,7 @@ const textoRepetidoMobileEn = `
 const textoRepetidoEn = `
     <div class="espacoHorizontal"></div>
     <div class="sobreTop">
-        <div class="circulo" id="mudarCorDois"><img class="anthony" src="./ex-webpage/imagens/anthony.png"></div>
+        <div class="circulo" id="mudarCorDois"><img class="anthony" src="/PROJETOS/ex-webpage/imagens/anthony.png"></div>
         <div class="sobreTopDiv">
             <p class="tituloBarra">about me:</p>
             <a href="mailto:anthony.blog@tuta.io" class="iconeContato">✉️</a>
